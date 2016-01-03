@@ -17,6 +17,7 @@ The HEAD is the most recent change(commit), hence being at the "head" of the com
 ##What are the 3 stages of a git change and how do you move a file from one stage to the other?
 
 **Stage 1**
+
 First there needs to be a change (new folder/document/sentence/etc). If the file is untracked you need to add it with the command git add "filename". This will stage the file.
 
 **Stage 2**
@@ -24,12 +25,13 @@ First there needs to be a change (new folder/document/sentence/etc). If the file
 Once you have the file tracked, any changes you make will be recognized. If you add a sentence in your file and save them and then run "git status", you will see a file has been modified. Now that you have made a change, go ahead an git commit -m "message here"
 
 **Stage 3**
+
 Now that you have made a number of changes and commited all of the changes you'd like, you can go ahead and merge the change to the master. If you are using github, you want to push your changes from your feature branchusing git push origin feature-branch-name here.
 
 In summary, add, commit, push. But if done locally, you might be running a diff check and then merging to master instead.
 
 ##Write a handy cheatsheet of the commands you need to commit your changes?
-
+```
 1. Add the file to be tracked:
 git add ...
 
@@ -43,6 +45,7 @@ git status
 
 4. Show a list of your commits:
 git log
+```
 
 ##What is a pull request and how do you create and merge one?
 
