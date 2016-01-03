@@ -66,3 +66,34 @@ This would take the file dan.txt and move it to the same directory and give it a
 **-help** - This is the windows version of “man”. You can type help + argument where argument is the program or command you would like documentation on.
 
 ##1.4 Forking and Cloning
+
+**NOTE - Instructions are for creating a new repo on github and then copying it to your local computer. These instructions are not for creating a new git repo locally.**
+
+**Create a new repo:**
+Go to github.com and create yourself a new (free) account of you have not already.
+Within your profile, click on the plus(+) sign at the top right, and select “New Repository”.
+Choose your preferences for the new repository including name, privacy setting, and license type, and then click on “Create Repository”
+That’s it! You’ve created a new repository on your github account.
+
+**Clone your repository:**
+1.  This guide will walk you how to clone a repository that is already stored on github to your computer as a local copy.
+2.  Login to your github account from github.com
+3. Select the repository that you want to clone.
+4. You should see a box that has “HTTPS” on the top or side of your github.com repository. To the right of this box you should see a full https hyperlink that you can select and copy. This is the location of this repository online that we will copy to your computer using a git command.
+5. Open up your terminal and navigate to or create a directory where you would like to store the repository you are going to clone.
+6. Type in the command  “git clone https:// paste copied url here” and hit enter.
+7. You should now see a few lines below the last command showing the progress of your repository being copied from github to the directory you are in.
+8. Once you are able, run the ls command and see if the repository you cloned is there. You can now navigate through this directory and confirm whether the same files have been copied from your online repository. It should be an exact clone
+
+
+**Fork a repo:**
+
+1.Navigate to the repository you wish to fork on github.com
+2.Click on the button labeled “Fork” near the top right.
+3.If you are already logged in to your profile, it will automatically start to copy the repository into your own account. If you have multiple profiles, you can select which area you would like to fork that repo to.
+4.Finally, verify that there is fork of the repo you selected within your own github account.
+
+
+**Why would you fork a repository as opposed to create a new one?**
+
+If I fork a repository, I am choosing to make a copy of the original to work on.  This will allow me to make my own modifications and branches without affecting the original repo. When I push changes back up to github from my local machine, instead of pushing them to the original authors latest version, I’ll be pushing them to my own github repository. This will protect the original work from being modified.  If I am working on a new program, then I will create my own new repository. I can allow others who would like to work on my program to create their own forks without modifying my work.
