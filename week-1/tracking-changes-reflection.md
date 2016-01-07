@@ -22,17 +22,17 @@ First there needs to be a change (new folder/document/sentence/etc). If the file
 
 **Stage 2**
 
-Once you have the file tracked, any changes you make will be recognized. If you add a sentence in your file and save them and then run "git status", you will see a file has been modified. Now that you have made a change, go ahead an git commit -m "message here"
+Once you have the file tracked, any changes you make will be recognized. If you add a sentence in your file and save them and then run "git status", you will see a file has been modified. Now that you have made a change, go ahead an git add "filename" to stage that change.
 
 **Stage 3**
 
-Now that you have made a number of changes and commited all of the changes you'd like, you can go ahead and merge the change to the master. If you are using github, you want to push your changes from your feature branchusing git push origin feature-branch-name here.
+Once you have added all the files that you have changed, run git commit -m "message here". This will commit all of your editions and add a note.  Now that you have made a number of changes and commited all of the changes you'd like, you can go ahead and merge the change to the master. If you are using github, you want to push your changes from your feature branch using git push origin feature-branch-name here.
 
 In summary, add, commit, push. But if done locally, you might be running a diff check and then merging to master instead.
 
 ##Write a handy cheatsheet of the commands you need to commit your changes?
 ```
-1. Add the file to be tracked:
+1. Add the file to be tracked or that has changed:
 git add ...
 
 2. Commit it:
@@ -45,6 +45,9 @@ git status
 
 4. Show a list of your commits:
 git log
+
+5. Push changes
+git push origin "name of branch being pushed"
 ```
 
 ##What is a pull request and how do you create and merge one?
