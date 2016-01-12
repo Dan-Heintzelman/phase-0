@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dan's Tech Blog for Muggles</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <header> <!-- Includes Blog name, title, and date -->
+    <h1>Dan's Tech Blog for Muggles</h1>
+    <img src="#" alt="Blog Logo"> <!--Make blog logo -->
+    <h2>What is version control, git, and github</h2>
+    <p>January 3, 2016 </p>
+  </header>
+  <aside> <!-- Sidebar for navigation to other posts and home -->
+  <ol>
+    <li><h3><a href="disect-me.html"> Blog 1.7 - Version Control for Muggles</a></h3>
+    <p>January 2nd By: Dan Heintzelman</p>
+    </li>
+     <li><h3><a href="#"> Blog - Description here</a></h3>
+    <p>January XX By: Dan Heintzelman</p>
+    </li>
+     <li><h3><a href="#"> Blog - Description here</a></h3>
+    <p>January XX By: Dan Heintzelman</p>
+    </li>
+     <li><h3><a href="#"> Blog - Description here</a></h3>
+    <p>January XX By: Dan Heintzelman</p>
+    </li>
+     <li><h3><a href="#"> Blog - Description here</a></h3>
+    <p>January XX By: Dan Heintzelman</p>
+    </li>
+     <li><h3><a href="#"> Blog - Description here</a></h3>
+    <p>January XX By: Dan Heintzelman</p>
+    </li>
+     <li><h3><a href="#"> Blog - Description here</a></h3>
+    <p>January XX By: Dan Heintzelman</p>
+    </li>
+  </ol>
+  </aside>
+
+  <main>
+
+    <p>Let's start out with the basics. What is version control? Well, quite simply, it's a system that allows developers to keep track of the changes to all of their files. It tells them what changes have been made to a folder, file, or even a sentence within a file. It also allows them to see who made the change (for group projects), and at what time the change was made. Your first thought might be that this is too difficult, but don't worry, even lazy people like me can take advantage of this easy to use system.
+    </p>
+    <p>
+    To express the dilemma of being without version control, I'm going to zoom back in time to when I was in gradeschool when I was just starting to type my own papers. I know you might be thinking... "gradeschool?, how old is this guy?" Fortunately, not that old. I think I was using Microsoft Office when I started typing my first papers. If you were anything like me growing up, you would constantly be invoking the “File > Save As” button and making new versions of the same paper over, and over, and over again. Over time, this would become very complicated. I could only see the date the older versions were modified, but I couldn’t for the life of me remember what the heck I changed. In desperation, I had to invent my own version control system. This entailed repeating the "Save As" technique a ton of times, iterating each version with short names describing the change. The result would be loads of files on my computer with odd names like “Version1_kindofcrappy”, “Version2_OkNotBad” and, well...you get the point.
+  </p>
+
+  <p>
+    Now that you know why developer's, or for that matter, anyone, needs version control, let's talk about one of the most popular version control system's out there, git. Git essentially allows the content creator (you!), to be able to accomplish versioning and tracking without actually having to “Save As”. You get to keep just one file name, and anytime you want to make a new version, you just have to run a few simple commands to make sure that you mark the files for change. Any time you are ready to submit a major change, you can leave a comment about the change. This way, you don't have to leave your self depricating remarks in the filename (only kidding). If you are working on a project, you will probably keep all of your files in one main folder, such as DansBlogPost. The way Git works is that you designate this main directory as your "repository". All the content in this directory has the ability to be tracked, and Git can even tell when you have changed a file so that you can easily know when it's the right time to take a "snapshot", or as Git calls, a "commit". Don't worry, your folders won't be oveflowing with all these changes and comments. When you observe your files and folders through the "normal people" viewer (OS X finder or Windows Explorer), you will see only one copy. All of the extra versions are nicely kept in a hidden folder called ".git" so as to not concern all the muggles (non coding folk) who might be sharing your server space.
+  </p>
+  <p>
+    This is of course an oversimplified explanation of GIT. However, I can tell you from personal experience that taking the leap from understanding what Git does, to how to use it, is achievable in just a few days. But wait! Before turning all of your folders into git repositories, you need to know about Github. Let's say you wanted to have 2, 3, or even hundreds of other people collaborate on your project. Well, you can, thanks to the fine folks who developed Github.
+  </p>
+  <p>
+    I think of GitHub as a giant home for all of my project’s code to live on the web. I can give keys for my home to all of my friends and they can come in and take any item out of my house, give it a nice addition (or subtraction), and then send the item right back into my house. Of course, I would likely be reviewing the change before it becomes a permanent part of my house. In Git terms, each time I let something become part of my house again, it becomes a "merge". GitHub still uses the same Git repository system that you have on your computer, but it allows you to store your repository in a central place where many coders can collaborate on it at once. It also brings in a nice graphical web interface where changes can be seen easily right in your browser, from anywhere! Go ahead, use your finely honed navigating skills to get to www.github.com and create a free account.
+  </p>
+  <p>
+    I hope this gives you a good understanding of what version control is, and a little bit about how you can use git and github to track your code and collaborate with others on it.
+  </p>
+</main>
+<footer>
+  <!-- Future posts will include blog copyright and social media links -->
+</footer>
+</body>
+</html>
+
+<!--
+ Reflection: GPS 1.2: The Anatomy of HTML
+
+1. What HTML5 tags have you used in this challenge and continue to return to often? Why?
+
+The most common tags that I use in almost every html document are as follows:
+
+<header> - I use header because almost any webpage you can think of is going to have some sort of feature or content towards the top that is logically separate from the rest of the document.
+
+<main> - This is where the "meat" of the page is. Again, it is logical that every document is going to have a "main" area. This is why I use it so often.
+
+<footer> - Even though I don't yet have any content in this section for my blog post, I know that I will add things to do it in the future because almost every professional page has a bottom area typically containing copyright, social media links, etc.
+
+2.How do elements get laid out on a page? What is the order the browser uses to display elements?
+
+Elements get laid out on page in the order they are interpreted by the browser, which is essentially one element at a time. The browser essentially creates a tree, otherwise known as a DOM (document object model) of the all of the elements and their children, and displays them accordingly.
+
+3.What did you learn about Sublime in this challenge? Do you think you'll create more handy snippets at a later date? What about research some shortcuts that already exist?
+
+I learned that I completely forgot that I had a plugin installed (emmet), that was overriding the default (html + Tab) snippet! At first in this pairing session I was not able to create the standard boiler plate. Since I learned how to create my own snippet, this won't be a problem. As I had mentioned earlier, I was at one point using a plugin called emmet to help quickly type html/css text.
+
+I highly recommend checking it out here (http://emmet.io/) For example, to create a section tab with a class of intro, you can just type "section.intro" without the quotes, and hit TAB. This will make <section class="intro"></section>
+
+-->
