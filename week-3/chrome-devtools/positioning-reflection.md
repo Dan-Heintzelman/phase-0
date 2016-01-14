@@ -2,41 +2,41 @@
 
 ## Images for Challenge
 
-1. Change_Color
+**Change Color**
 
 ![1.Change_Color](imgs/1.Change_Color.png)
 
-2.  Column
+**Column**
 
 ![Column](imgs/2.Column.png)
 
-3. Row
+**Row**
 
 ![Row](imgs/3.Row.png)
 
-4.  Make Equidistant
+**Make Equidistant**
 
 ![Make Equidistant](imgs/4.Make Equidistant.png)
 
-5.  Squares
+**Squares**
 
-![Squares](imgs/4.5.Squares.png)
+![Squares](imgs/5.Squares.png)
 
-6.  Footer
+**Footer**
 
 ![Footer](imgs/6.Footer.png)
 
-7. Header
+**Header**
 
-[Header](imgs/7.Header.png)
+![Header](imgs/7.Header.png)
 
-8. Sidebar
+**Sidebar**
 
-[Sidebar](imgs/8.Sidebar.png)
+![Sidebar](imgs/8.Sidebar.png)
 
-8. Get Creative
+**Get Creative**
 
-[Sidebar](imgs/9.Get_Creative)
+![Sidebar](imgs/9.Get_Creative)
 
 ## Reflection Q/A
 
