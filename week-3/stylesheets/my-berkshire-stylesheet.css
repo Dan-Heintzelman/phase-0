@@ -1,3 +1,130 @@
-html {
-  background-color: red;
+html  {
+      color: #000080;
+      background-color: white;
+      font-size: 1em;
+     }
+
+a:link     {
+      color: #800080;
+
+     }
+a:visited: {
+    color:FF0000;
+     }
+
+.left
+      {
+       float: left;
+       width: 30%;
+       }
+.right {
+       float: right;
+       width: 30%;
+        }
+footer {
+        clear: both;
+
+
+      }
+
+ul > li {
+        padding: 10px;
+          }
+
+li > span {
+        font-size: .5em;
+        color: #000080;
+        display: block;
+        padding: 2.5px;
+
+          }
+header {
+        text-align: center;
+        }
+
+h1 {
+  font-size: 1em;
+  }
+
+
+h1 > span {
+        font-size: 2em;
 }
+
+address > span {
+
+          display: block;
+           }
+
+address, h3 {
+      font-style: normal;
+      margin-top: 2px;
+}
+.rule {
+        border: 0;
+      height: 1px;
+      background: #333;
+}
+
+
+footer > p:nth-child(3) {
+      text-align: center;
+      margin-top: 2px;
+      font-size: .5em
+
+          }
+
+img {
+      display: block;
+      margin: auto;
+      padding-top: 12px;
+
+  }
+.center {
+      display: block;
+      padding-bottom: 12px;
+}
+
+footer > p:nth-child(5) {
+
+      font-size: .8em
+    }
+
+
+.bold {
+
+        font-weight: bold;
+}
+
+footer p:last-child {
+    font-size: .7em;
+  }
+
+  /* REFLECTION HERE
+1.  What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+What is most important when linking an external stylesheet to an HTML file is the relative path from the HTML file to the CSS sheet. If you don't know the path from HTML to CSS, then you cannot specify the correct "href="" within the <link> tag.
+
+2.  What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We used floats to get the two columns to stick to their approriate side. We used classes to name each UL with a "left" or a "right", then we gave floats to each one.
+
+I think we both realized after completing our pairing session that is was quite difficult to get everything exactly as we wanted it. At points I felt like we were being redundant in our CSS file.
+
+3.  What CSS did you use to modify the element style (like size, color, etc.)
+
+This question is a bit ambiguous. If you mean, "what kind of selectors did you use in your CSS", the answer would be as follows:
+
+We used Pseudo class selectors for the links, and we used the nth-child(n) selector to grab certain items in a list. We used the direct child for most CSS rules ( > ) as well. Ex. (Header > p).
+
+4.Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+Absolutely, I think I was pretty specific in answer 1. We used .left and .right as selectors to grab the classes for each UL(unordered list) so we could float them to the left and right respectively. Also, we used a <span> with a class of .bold to bold certain items without actually using HTML. We did have to modify the HTML to add spans for many things. We also added in HTML <divs> and styled them with CSS to create <hr>s. However, now that I think about this, we probably could have used the border-bottom property insted of adding in <div>s
+
+5.When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+We found that the original source was absolutely horrifying. The code was not semantic and the worst part was that most of it was styled inline. We noticed that the logo "Berkshire-Hathaway" used a depricated tag <font> to control the size of the font in the HTML. This was messy and hard to read.
+
+Semantic HTML not only benefits the programmer who has to come in and fix old code, but is important for usability in the context of accesibility options for screen readers and other assisted reading devices.
+
+*/
