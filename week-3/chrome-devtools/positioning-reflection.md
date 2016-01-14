@@ -36,21 +36,21 @@
 
 **Get Creative**
 
-![Sidebar](imgs/9.Get_Creative)
+![Get Creative](imgs/9.Get_Creative.png)
 
 ## Reflection Q/A
 
-1.  How can you use Chrome's DevTools inspector to help you format or position elements?
+1.How can you use Chrome's DevTools inspector to help you format or position elements?
 
 The inspector tool in Chrome is great way to both analyze an existing webpage and to help create a new one.  If I want to "emulate" a style being used on another page, I typically will pull up the inspector so I can see the highlighted "box model" of an element.  This makes it very easy to distinguish margin from padding, and padding from content.
 
 When I create a new website, sometimes I don't know if a line of CSS code actually is affecting the element. To check, I use the inspector to see if my change actually took place. For instance, if I give a padding-left: 5px , and the padding is still 0, I know that some other line of code or inhereted property value took precedence.
 
-2.  How can you resize elements on the DOM using CSS?
+2.How can you resize elements on the DOM using CSS?
 
 There are a number of ways to resize elements on the DOM (Document Object Model) using CSS. I typically will use the height and width properties to establish size of an element.
 
-3.  What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
+3.What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
 
 First, I want to mention that I think these concepts are a little difficult to describe. I was inspired by this css-tricks article, [Absolute, Relative, Fixed Positioning: How Do They Differ?](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
 
@@ -70,7 +70,7 @@ This is like absolute, however, this will position and element in relationship t
 
 Well, if you don't give an element any position:value , then it will be static by default. This just means the element will flow as it normally would on the page. You wouldn't ever specify static in a property/value pair unless you were trying to force it out of relative, absolute, or any other positioned state.
 
-4.  What are the differences between margin, border, and padding?
+4.What are the differences between margin, border, and padding?
 
 **Margin**
 
@@ -84,7 +84,7 @@ This is the last boundary that can be physically seen before the invisible margi
 
 Padding is what defines the space or "buffer" between the content (such as text), and the border. When you define a background-color, it is coloring both the content background and the padding. Think of this as the area in a painting between the image itself and the frame.
 
-5.  What was your impression of this challenge overall? (love, hate, and why?)
+5.What was your impression of this challenge overall? (love, hate, and why?)
 
 I thought this challenge was a **fantastic** way of illuminating the differences between display types, positioning types, and element dimensions. Even though I have some CSS knowledge, I think positiong concepts can be very tricky to understand, and only through these types of exercises can we understand how they work.
 
