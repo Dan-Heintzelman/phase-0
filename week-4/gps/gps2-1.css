@@ -1,0 +1,58 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin:0;
+  background-color:#9AE5FF;
+}
+
+header {
+  width: 100%;
+  border-bottom: solid 5px green;
+}
+/* Pseduo class trick taken from https://css-tricks.com/snippets/css/transparent-background-images/ */
+header::after {
+  content: "";
+  background: url("../imgs/title_back.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.column-1 {
+  font-family: Verdana;
+  float: left;
+  width: 50%;
+  /*margin-left: 5%;*/
+  padding-right:15px;
+  padding-left:15px;
+  background-color: #74ACBF;
+}
+.column-2 {
+  font-family: Verdana;
+  float: right;
+  width: 50%;
+  padding-right:15px;
+  padding-right:15px;
+  padding-left:15px;
+  /*margin-right: 5%;*/
+  background-color: #9AE5FF;
+}
+
+footer {
+  background-color: gray;
+  clear: both;
+  height: 40px;
+  text-align: center;
+}
+.footer-text {
+  line-height: 40px;
+}
