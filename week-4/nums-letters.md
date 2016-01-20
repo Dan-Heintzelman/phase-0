@@ -38,7 +38,7 @@ Addition - Numbers can be added to eachother and strings can be added to eachoth
 
 ```
 'stuff' + 3
-'''
+```
 
 This ^ would give you a conversion error.
 
@@ -46,7 +46,7 @@ Subraction - Follow same rules as above, you can't subract a number from a strin
 
 Multiplication - You can multiple numbers by numbers but you cannot multiple a string by a string. However, you can use the multiplication operation to multiple strings.
 
-'''
+```
 'cat' * 3 = catcatcat
 3 * 'cat' **note** this is not valid, you cannot print 3, cat times.
 ```
@@ -84,4 +84,10 @@ Local variables are a way of describing the scope of a variable. If a variable i
 **6.How was this challenge? Did you get a good review of some of the basics?
 
 This is a great review! Although, I do find the instructions misleading. 4.2.1, 4.2.2, and 4.2.3 all say to submit the links for each exercise, but there is only 1 area to submit, which is on the 4.2 page, and it is reserved for this file. So I will paste links below on this page.
+
+[Challenge 4.2.1](https://github.com/Heintzdm/phase-0/blob/master/week-4/defining-variables.rb)
+
+[Challenge 4.2.2](https://github.com/Heintzdm/phase-0/blob/master/week-4/simple-string.rb)
+
+[Challenge 4.2.3](https://github.com/Heintzdm/phase-0/blob/master/week-4/basic-math.rb)
 
