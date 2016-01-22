@@ -1,3 +1,4 @@
+# Full Name Greeting
 puts 'Hey there! Whats your first name?'
 name1= gets.chomp
 puts 'Thanks! What about your middle name?'
@@ -6,6 +7,7 @@ puts 'We\'re on a roll! Finally, can I get your last name?'
 name3= gets.chomp
 puts 'I am pleased to meet you, ' + name1 + ' ' + name2 + ' ' + name3 + '! '
 puts ' '
+# Bigger, Better, favorite number
 puts 'What is your favorite number?'
 number = gets.chomp.to_i
 result = number + 1
