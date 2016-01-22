@@ -40,9 +40,9 @@ puts 'Why there, what a lovely number ' + number.to_s + ' is. But don\'t you thi
 # LINKS TO CHALLENGES
 
 # 4.3.1 Return a Formatted Address
-#
+# https://github.com/Heintzdm/phase-0/blob/master/week-4/address/my_solution.rb
 
 # 4.3.2 Defining Math Methods
-#
+# https://github.com/Heintzdm/phase-0/blob/master/week-4/math/my_solution.rb
 
 
