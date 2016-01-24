@@ -31,7 +31,7 @@ def shortest_string(list_of_words)
   end
   end
   return list_of_words[0]
-end
+
 
 # shortest_string(['cat', 'zzzzzzz', 'apples'])
 
