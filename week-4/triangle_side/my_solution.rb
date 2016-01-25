@@ -1,7 +1,9 @@
-# I worked on this challenge [by myself, with: ].
-# Worked with Ivy Vetor
+# I worked on this challenge [ with Ivy Vetor].
+
 
 # Your Solution Below
+
+#### First try - did not work
 
 # def valid_triangle?(a, b, c)
 
@@ -25,15 +27,17 @@
 
 # end
 
+# Refactor - Tested and working
+
 def valid_triangle?(a, b, c)
 
 if a == 0 || b == 0 || c == 0
-  puts "False"
+  # puts "False"
   return false #Tested
 end
 
-if a + b < c || a + c < b || a + c < b
-  puts "True!"
+if a + b < c || a + c < b || b + c < a
+  # puts "False"
   return false
 end
 
@@ -41,7 +45,7 @@ if (a == b) || (b == c) || (c == a)
   return true
 end
 
-puts "True!"
+# puts "True!"
 return true
 
 
