@@ -30,8 +30,8 @@ def group_create(cohort)
     end
   end
   counter = 1   #Iterate through leftovers and push values into hash
-  cohort.each do |num|
-    hash[counter] << num
+  cohort.each do |string|
+    hash[counter] << string
     counter += 1
   end
 return hash

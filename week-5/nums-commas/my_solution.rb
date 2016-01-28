@@ -25,7 +25,7 @@ def separate_comma(number)
   length = num_array.length
   comma_array = []
   count = 0
-  length.times {
+  length.times do #using modulo w/ string interpolation for refactor
     comma_array[count] = num_array.shift
       if comma_array.length == 3 || (comma_array.length + 1) % 4 == 0
         comma_array.push(",")
@@ -33,7 +33,7 @@ def separate_comma(number)
       else
         count += 1
       end
-  }
+  end
 
   result = comma_array.reverse  # had to add this in so
     if result[0] == ","
