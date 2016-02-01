@@ -135,5 +135,3 @@ describe 'PERSON 5: my_hash_splitting_method' do
   end
 
 end
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
