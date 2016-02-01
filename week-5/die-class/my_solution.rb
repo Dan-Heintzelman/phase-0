@@ -2,7 +2,7 @@
 
 # I worked on this challenge [With Mike London]
 
-# I spent [] hours on this challenge.
+# I spent [1.5] hours on this challenge.
 
 # 0. Pseudocode
 
