@@ -21,6 +21,43 @@
 # Don't forget to check on initialization for a card length
 # of exactly 16 digits
 
+# class CreditCard
+#   def initialize(credit_num)
+#     @credit_num = credit_num.to_s
+#     raise ArgumentError.new("Not a valid card number")  unless @credit_num.length == 16
+#   end
+
+#   def check_card
+#     credit_arr = Array.new()
+#     credit_arr = @credit_num.split('').reverse
+#     (1...16).step(2) do |x|
+#       credit_arr[x] = (credit_arr[x].to_i * 2).to_s
+#       credit_arr[x] = credit_arr[x].split('')
+#     end
+#     credit_arr.flatten!
+#     credit_arr.each_index{|num| credit_arr[num] =credit_arr[num].to_i }
+#     p credit_arr
+#     check =
+#       credit_arr.inject {|cumul, item|p cumul + item}
+
+#     check % 10 == 0
+
+
+#   end
+
+
+
+# end
+
+# #Driver Code
+
+# card = CreditCard.new(4563960122001999)
+
+# p card.check_card
+
+
+# Refactored Solution
+
 class CreditCard
   def initialize(credit_num)
     @credit_num = credit_num.to_s
@@ -28,25 +65,17 @@ class CreditCard
   end
 
   def check_card
-    credit_arr = Array.new()
-    credit_arr = @credit_num.split('').reverse
-    (1...16).step(2) do |x|
+    credit_arr = @credit_num.split('')
+    (0...16).step(2) do |x|
       credit_arr[x] = (credit_arr[x].to_i * 2).to_s
       credit_arr[x] = credit_arr[x].split('')
     end
-    credit_arr.flatten!
-    credit_arr.each_index{|num| credit_arr[num] =credit_arr[num].to_i }
-    p credit_arr
-    check =
-      credit_arr.inject {|cumul, item|p cumul + item}
-
-    check % 10 == 0
-
-
-  end
-
-
-
+      credit_arr.flatten!
+      check = credit_arr.inject do |counter, string|
+      string.to_i + counter.to_i
+      end
+      check % 10 == 0
+end
 end
 
 #Driver Code
@@ -55,14 +84,24 @@ card = CreditCard.new(4563960122001999)
 
 p card.check_card
 
-
-# Refactored Solution
-
-
-
-
-
-
-
-
 # Reflection
+
+# 1. What was the most difficult part of this challenge for you and your pair?
+
+#   The most difficult part we had was figuring out why our solution failed (debugging) after
+#   we ran through our solution. We finally realized that when we were iterating, that we were
+#   skipping one of our strings! After figuring this out, we realized that our first solution
+#   worked pretty darn well!
+
+# 2. What new methods did you find to help you when you refactored?
+
+#   In the refactor, I learned that we could use .inject to both convert our strings to integers
+#   and count the cumulative in the same do loop. Before, we used one loop to convert and
+#   another to add them together.
+
+# 3. What concepts or learnings were you able to solidify in this challenge?
+
+#   More and more often I am able to determine which methods can be used on what class types. I
+#   am also getting better at recognizing where I can remove extra code in my refactor. For
+#   example, on line 68 I did not need to specify that credit_arr was an array like we did in
+#   the initial solution since it is implied when you run the method .split.
