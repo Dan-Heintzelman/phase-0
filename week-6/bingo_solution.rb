@@ -128,46 +128,46 @@ end
 
 #Reflection
 
-1. How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+# 1. How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
 
-  I found this project pretty difficult to pseudocode. I found myself wanting to jump back and fourth between
-  pseudocoding and writing code. I think I have started to get good at writing classless pseudocode. It can be
-  difficult to not write out literal code in my pseudocode. I think that having an understanding of the process
-  before understanding the code is extremely important. I think that laying out the process has caused be to have
-  more wisdom when I write the code.
+#   I found this project pretty difficult to pseudocode. I found myself wanting to jump back and fourth between
+#   pseudocoding and writing code. I think I have started to get good at writing classless pseudocode. It can be
+#   difficult to not write out literal code in my pseudocode. I think that having an understanding of the process
+#   before understanding the code is extremely important. I think that laying out the process has caused be to have
+#   more wisdom when I write the code.
 
-2. What are the benefits of using a class for this challenge?
+# 2. What are the benefits of using a class for this challenge?
 
-  The main benefit to writing a class is that it makes it extremely easy to pass values between methods. Also, when
-  making the calls in the driver code, it is much more logical to call new_game.function rather than having to call
-  new methods for every function and have to pass data between the methods. (like we did in the grocery list challange)
+#   The main benefit to writing a class is that it makes it extremely easy to pass values between methods. Also, when
+#   making the calls in the driver code, it is much more logical to call new_game.function rather than having to call
+#   new methods for every function and have to pass data between the methods. (like we did in the grocery list challange)
 
-3. How can you access coordinates in a nested array?
+# 3. How can you access coordinates in a nested array?
 
-  The way to access coordinates in a nested array is by using the index where the array is nested, followed the index of
-  whatever item you want to access in the nested array. For instance, Array = [1,2,3,[1,2,3],4] , to access the first element
-  in the first nested array you would do Array[3][0].
+#   The way to access coordinates in a nested array is by using the index where the array is nested, followed the index of
+#   whatever item you want to access in the nested array. For instance, Array = [1,2,3,[1,2,3],4] , to access the first element
+#   in the first nested array you would do Array[3][0].
 
-4. What methods did you use to access and modify the array?
+# 4. What methods did you use to access and modify the array?
 
-  Modifying the array was not particularly challenging. I just accesed the array by calling on the coordinates of the
-  matching number, and then by setting the value to "X". The way I iterated was by using a .times method since I knew that
-  only 5 coordinates would need to be checked.
+#   Modifying the array was not particularly challenging. I just accesed the array by calling on the coordinates of the
+#   matching number, and then by setting the value to "X". The way I iterated was by using a .times method since I knew that
+#   only 5 coordinates would need to be checked.
 
-5. Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+# 5. Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
 
-  What I learned that was new was how to use the .times method while supplying a value in the code block that counts up based
-  on a zero index. Using this allowed me to iterate over my Bingo board and print to the console using the same do loop.
+#   What I learned that was new was how to use the .times method while supplying a value in the code block that counts up based
+#   on a zero index. Using this allowed me to iterate over my Bingo board and print to the console using the same do loop.
 
-6. How did you determine what should be an instance variable versus a local variable?
+# 6. How did you determine what should be an instance variable versus a local variable?
 
-  I was able to make this determination by reviewing the requirements of the code. I knew that I would need to access the bingo
-  board outside of the initilize method, so I made it an instance variable. However, in the generate method, I knew that
-  the arrray ["B","I","N","G","O"] was only a placeholder and I would only be using it to print letters to the console, so I
-  made that a local variable.
+#   I was able to make this determination by reviewing the requirements of the code. I knew that I would need to access the bingo
+#   board outside of the initilize method, so I made it an instance variable. However, in the generate method, I knew that
+#   the arrray ["B","I","N","G","O"] was only a placeholder and I would only be using it to print letters to the console, so I
+#   made that a local variable.
 
-7. What do you feel is most improved in your refactored solution?
+# 7. What do you feel is most improved in your refactored solution?
 
-  The biggest improvement in my refactor is in the .check method where I use the do loop to both iterate and replace values
-  as well as print to the console.
+#   The biggest improvement in my refactor is in the .check method where I use the do loop to both iterate and replace values
+#   as well as print to the console.
 
