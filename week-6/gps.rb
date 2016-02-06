@@ -65,7 +65,7 @@ def serving_size_calc(item_to_make, num_of_ingredients)
   # Add ingredient libary using same keys so we can call the items by the same key
   baked_goods =         {"cookie" => 1, "cake" =>  5, "pie" => 7}
   ingredients =         {"cookie" => ["Eggs","Butter","Chocolate Chips"],
-                          "cake" => ["Eggs","Butter", "flour"],
+                          "cake" => ["Eggs","Butter", "Flour"],
                           "pie" => ["Pieshell", "Piemix", "Sugar"]
     }
   # Fail program if supplied arguement to make does not match an item in the library
