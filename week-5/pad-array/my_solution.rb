@@ -61,42 +61,42 @@ pad(arr1, 10, 5)
 
 # 4. Reflection
 
-1. Were you successful in breaking the problem down into small steps?
+# 1. Were you successful in breaking the problem down into small steps?
 
-I think that we were successful doing this, even though it was tough because we had 1 driver and two navigators in our 3 person group at the study session.
+# I think that we were successful doing this, even though it was tough because we had 1 driver and two navigators in our 3 person group at the study session.
 
-2.Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+# 2.Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
 
-We had a bit of trouble understanding how the spec file was going to determine whether our
-solution was destructive or non desctructive. This only became a problem after we had
-translated all of our code into pseudocode. It turns out, our solution involved creating
-a duplicate of the input at the beginning to prevent the rspec as seeing our solution as
-destructive.
+# We had a bit of trouble understanding how the spec file was going to determine whether our
+# solution was destructive or non desctructive. This only became a problem after we had
+# translated all of our code into pseudocode. It turns out, our solution involved creating
+# a duplicate of the input at the beginning to prevent the rspec as seeing our solution as
+# destructive.
 
-3.Was your initial solution successful at passing the tests? If so, why do you think that
-  is? If not, what were the errors you encountered and what did you do to resolve them?
+# 3.Was your initial solution successful at passing the tests? If so, why do you think that
+#   is? If not, what were the errors you encountered and what did you do to resolve them?
 
-Our initial solution generated many errors. Most of those errors at first were just syntax
-errors that we were able to detect and fix pretty easily. The strange error message that we
-got was "expected = 23411839402834 (basically some long number) and got = 2342349023482342
-(another long number)." Our conclusion was that rspec was using object IDs to see if the
-array was being turned into something else (which would be destructive).
+# Our initial solution generated many errors. Most of those errors at first were just syntax
+# errors that we were able to detect and fix pretty easily. The strange error message that we
+# got was "expected = 23411839402834 (basically some long number) and got = 2342349023482342
+# (another long number)." Our conclusion was that rspec was using object IDs to see if the
+# array was being turned into something else (which would be destructive).
 
-4. When you refactored, did you find any existing methods in Ruby to clean up your code?
+# 4. When you refactored, did you find any existing methods in Ruby to clean up your code?
 
-We did not find any other methods new methods to use beyond using .concat. We were going to use .push, but we ended up staying with .concat for both solutions. Since we worked on
- this with 3 group members, our original failed solution is not on this doucment, so the
-  two solutions above are in essense. refactors.
+# We did not find any other methods new methods to use beyond using .concat. We were going to use .push, but we ended up staying with .concat for both solutions. Since we worked on
+# this with 3 group members, our original failed solution is not on this doucment, so the
+#   two solutions above are in essense. refactors.
 
-5. How readable is your solution? Did you and your pair choose descriptive variable names?
+# 5. How readable is your solution? Did you and your pair choose descriptive variable names?
 
-I think that the variable names we chose are short, to the point, and the code reads well
-together.
+# I think that the variable names we chose are short, to the point, and the code reads well
+# together.
 
-6.  What is the difference between destructive and non-destructive methods in your own
- words?
+# 6.  What is the difference between destructive and non-destructive methods in your own
+# words?
 
- A desctuctive method would be one that changes the original content of the supplied input. So essentially, the value would not be returned to a new variable, it would
- overwrite the exising input value. A non-destructive method would not impact the orignal
-  values in the input. In fact, it might not do anything at all unless the result is
-    assigned to a new variable.
+# A desctuctive method would be one that changes the original content of the supplied input. So essentially, the value would not be returned to a new variable, it would
+# overwrite the exising input value. A non-destructive method would not impact the orignal
+#   values in the input. In fact, it might not do anything at all unless the result is
+#     assigned to a new variable.
