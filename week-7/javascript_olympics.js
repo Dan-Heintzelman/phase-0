@@ -58,34 +58,34 @@ function Athlete(name, age, sport, quote) {
 
 // Reflection
 
-1.  What JavaScript knowledge did you solidify in this challenge??
+// 1.  What JavaScript knowledge did you solidify in this challenge??
 
-  I think that my pair and I can both vouch for the fact that we learned that it is
-  incredibly easy to forget to put in the keyword var, to declare a variable. Also, we
-  learned that we need to use this keyboard to declare our init value in our for loops.
+//   I think that my pair and I can both vouch for the fact that we learned that it is
+//   incredibly easy to forget to put in the keyword var, to declare a variable. Also, we
+//   learned that we need to use this keyboard to declare our init value in our for loops.
 
-2.  What are constructor functions?
+// 2.  What are constructor functions?
 
-  Constructor functions remind me quite a lot of what making a "class" is in Ruby. Code within a
-  function is intended to be reused multiple times. Before it can be used, it must first be
-  instantiated and perhaps given some arguements when this is done (just like a ruby class). Once
-  an instance is created using:
-   var newInstance = new functionName();
- then newIntance will have the properties defined in the the contructor function. (assuming it w
-  as given some).
+//   Constructor functions remind me quite a lot of what making a "class" is in Ruby. Code within a
+//   function is intended to be reused multiple times. Before it can be used, it must first be
+//   instantiated and perhaps given some arguements when this is done (just like a ruby class). Once
+//   an instance is created using:
+//    var newInstance = new functionName();
+//  then newIntance will have the properties defined in the the contructor function. (assuming it w
+//   as given some).
 
-3. How are constructors different from Ruby classes (in your research)?
+// 3. How are constructors different from Ruby classes (in your research)?
 
-  My research seems to show that ruby classes DO very simliar things to JS constructors,
-  however the way they do it is different. In Ruby, instances of classes are used to make new
-  objects. In JS, a constructor is an object that is invoked to make a new object. However, one
-  big difference is that a constructor function cannot build a function that is available to all
-  instances of itself like ruby can. This can be done using the prototype function in JS.
+//   My research seems to show that ruby classes DO very simliar things to JS constructors,
+//   however the way they do it is different. In Ruby, instances of classes are used to make new
+//   objects. In JS, a constructor is an object that is invoked to make a new object. However, one
+//   big difference is that a constructor function cannot build a function that is available to all
+//   instances of itself like ruby can. This can be done using the prototype function in JS.
 
-  W3schools explains this in a very simple way. "Every JavaScript object has a prototype. The pr
-  ototype is also and object. All Javascript objects inherit their properties and methods from their
-  prototype."
+//   W3schools explains this in a very simple way. "Every JavaScript object has a prototype. The pr
+//   ototype is also and object. All Javascript objects inherit their properties and methods from their
+//   prototype."
 
-  I am not entirely clear on this, but it seems like the .prototype function is used to add properties
-  and functions to existing constructors. However, I don't see why you can't just add the function into
-  the constructor everytime you need a new function added to a contructor!
+//   I am not entirely clear on this, but it seems like the .prototype function is used to add properties
+//   and functions to existing constructors. However, I don't see why you can't just add the function into
+//   the constructor everytime you need a new function added to a contructor!
