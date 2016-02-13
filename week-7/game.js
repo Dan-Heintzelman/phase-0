@@ -132,6 +132,36 @@ var grass = new buildItem("I think I digest that", //construct grass object
 // }) // end answer readline
 
 
+ // stuff copied from coderpad
+
+//  var item = prompt("Please enter an item","gate or grass");
+
+// // var currentItemInPlay = item;
+
+// // for(i = 0, i >= items.length, i++ ) {
+// //   if items[i] === item[currentItemInPlay]
+
+// //     var itemForAction = item[currentItemInPlay]
+
+
+// //     for(itemForAction) {
+// //         if itemForAction ===  action
+
+// // }
+// // }
+
+
+// var item = prompt("Please enter an item","gate or grass");
+// var action = prompt("Please enter what you want to do with" + item, "Look, Use, Moo");
+
+// if (item == "gate" && action == "Use") {
+//    gate.use();
+// };
+// else if (item == "gate")
+
+
+
+
 
 
 // Refactored Code
