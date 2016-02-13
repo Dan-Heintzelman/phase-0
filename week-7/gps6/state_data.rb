@@ -1,6 +1,8 @@
 #population density is number of people per square mile as of 2012
 #this data is updated every year with estimates from a 10 year census
 
+#constants have a global scope throughout the program. Ruby will throw an error
+# if you try to change the data in the constant
 
 STATE_DATA = {
   "Alabama" => {population_density: 94.65, population: 4822023},
@@ -55,3 +57,5 @@ STATE_DATA = {
   "Wisconsin" => {population_density: 105.2, population: 5726398},
   "Wyoming" => {population_density: 5.851, population: 576412}
 }
+
+puts STATE_DATA["Alabama"][:population]
