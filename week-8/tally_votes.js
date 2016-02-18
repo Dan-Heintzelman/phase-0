@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with: Tori Huang
+// This challenge took me [1.5] hours.
 
 // PSEUDOCODE
 // Input: An OBJECT containing people and their votes
