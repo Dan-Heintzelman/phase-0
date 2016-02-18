@@ -16,38 +16,38 @@ ORDER BY population DESC;
 ```
 
 5.
-```
+```SQL
 select state_name
 FROM states
 WHERE region_id='7';
 ```
 6.
-```
+```SQL
 select state_name,population_density
 FROM states
 WHERE population_density>50
 ORDER BY population_density;
 ```
 7.
-```
+```SQL
 select state_name
 from states
 where population between 1000000 and 1500000;
 ```
 8.
-```
+```SQL
 select state_name,region_id
 from states
 order by region_id;
 ```
 9.
-```
+```SQL
 select region_name
 from regions
 where region_name LIKE '%central%';
 ```
 10.
-```
+```SQL
 SELECT regions.region_name, states.state_name
 FROM regions
 INNER JOIN states
