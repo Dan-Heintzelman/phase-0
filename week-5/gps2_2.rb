@@ -92,32 +92,32 @@ print_list(g_list)
 
 ###### REFLECTION ########
 
-1. What did you learn about pseudocode from working on this challenge?
-  I learned that even though working on pseudcode can sometimes seem useless,
-  it really helps to establish the thought process necessary to create the code.
-  My peer decided that he wanted to write out pseudocode for the entire problem
-  first before working on each method, which I thought was a great idea.
-
-2. What are the tradeoffs of using Arrays and Hashes for this challenge?
-  In my opionion, the value of using Hashes for this problem was that I could
-  add items to my list as keys. However, we actually did use both arrays and
-  hashes for this exercise so I actually think I got the best of those worlds.
-
-3. What does a method return?
-  A method returns a value which could be a string, integer, float, etc.
-
-4. What kind of things can you pass into methods as arguments?
-  You can pass Arrays, Hashes, variables, strings, floats, integers, and you can
-  even pass other methods into methods. (As we learend in this exercise).
-
-5.How can you pass information between methods?
-  You can pass information between methods by essentially running a method with a value
-  as an arguement inside of another method. The way we did this was by assigning
-  a method to a variable. We then took that variable and put it as an argument
-  in the next method.
-
-6.What concepts were solidified in this challenge, and what concepts are still confusing?
-  Since we did this GPS towards the end of the week, I feel like I've learned a lot. However,
-  this particular GPS helped me to solifify how to add things to and remove things from hashes.
-  I feel like some concepts are confusing, like regression, but they weren't really a challenge
-  in this paticular exercise.
+# 1. What did you learn about pseudocode from working on this challenge?
+#   I learned that even though working on pseudcode can sometimes seem useless,
+#   it really helps to establish the thought process necessary to create the code.
+#   My peer decided that he wanted to write out pseudocode for the entire problem
+#   first before working on each method, which I thought was a great idea.
+#
+# 2. What are the tradeoffs of using Arrays and Hashes for this challenge?
+#   In my opionion, the value of using Hashes for this problem was that I could
+#   add items to my list as keys. However, we actually did use both arrays and
+#   hashes for this exercise so I actually think I got the best of those worlds.
+#
+# 3. What does a method return?
+#   A method returns a value which could be a string, integer, float, etc.
+#
+# 4. What kind of things can you pass into methods as arguments?
+#   You can pass Arrays, Hashes, variables, strings, floats, integers, and you can
+#   even pass other methods into methods. (As we learend in this exercise).
+#
+# 5.How can you pass information between methods?
+#   You can pass information between methods by essentially running a method with a value
+#   as an arguement inside of another method. The way we did this was by assigning
+#   a method to a variable. We then took that variable and put it as an argument
+#   in the next method.
+#
+# 6.What concepts were solidified in this challenge, and what concepts are still confusing?
+#   Since we did this GPS towards the end of the week, I feel like I've learned a lot. However,
+#   this particular GPS helped me to solifify how to add things to and remove things from hashes.
+#   I feel like some concepts are confusing, like regression, but they weren't really a challenge
+#   in this paticular exercise.
