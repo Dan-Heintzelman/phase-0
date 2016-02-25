@@ -172,3 +172,21 @@ end
 
 
 # Reflection
+
+# 1. What concepts did you review in this challenge?
+#
+# We reviewed attr_readers and attr_writers, class creation and Passing data between
+# classes.
+#
+# 2. What is still confusing to you about Ruby?
+#
+# Sometimes it can get confusing to track what is happening to an object in ruby.
+# For instance, the driver code creates new silverware class instances, then these
+# items get pulled into the drawer class instance and get used. For instance, it
+# was confusing to me at first why the .type attr_reader was available within the
+# Drawer class at first.
+#
+# 3. What are you going to study to get more prepared for Phase 1?
+#
+# I still think I need more practice with accessing nested values and also with
+# passing data between class structures.
