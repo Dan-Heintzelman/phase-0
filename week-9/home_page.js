@@ -45,3 +45,22 @@ for (var i = 0; i < rel4.length; i++) {
 
 var templ = document.getElementById('hidden');
 document.body.appendChild(templ.content.cloneNode(true));
+
+
+
+// REFLECTION
+
+// 1.  What did you learn about the DOM?
+//
+// Before coming into this exercise I knew a little bit about how the DOM worked
+// since I have studied JS for UX design. However, I mostly worked on Jquery
+// when I was selecting elements in the DOM, so I learned how to use JavaScript's
+// built in functionality to select items on the DOM from nodes using tags, elements,
+// class, IDs, etc.
+//
+// 2.  What are some useful methods to use to manipulate the DOM?
+//
+// getElementById , getElementsByClassName, getElementsByTagName are three good
+// methods to use to select elements on the DOM. I learned that when selecting an
+// element by TagName that is actually creates an array of all that items of that
+// element on a page.
