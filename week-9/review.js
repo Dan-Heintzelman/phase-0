@@ -91,21 +91,22 @@ myList.update_item("Foot Cream", 500);
 myList.remove_item('bananas');
 myList.remove_single_item('grapes');
 
+// REFLECTION
 
-1. What concepts did you solidify in working on this challenge? (reviewing the
-passing of information, objects, constructors, etc.)
-
-This activity helped me solidify the difference between using an object literal
-definition and a cronstructor function to create to create intsance of an object.
-
-2.  What was the most difficult part of this challenge?
-
-I actually found this challenge to be fairly easy. However, I think it was at
-first difficult to think about how to best print out the results in a way they
-would look nice for a grocery list.
-
-3. Did an array or object make more sense to use and why?
-
-An object made more sense to use since an object could contain everything we
-needed to make our solution work. We just created an object called grocery list
-and defined properties as functions that modified the nested object food items.
+// 1. What concepts did you solidify in working on this challenge? (reviewing the
+// passing of information, objects, constructors, etc.)
+//
+// This activity helped me solidify the difference between using an object literal
+// definition and a cronstructor function to create to create intsance of an object.
+//
+// 2.  What was the most difficult part of this challenge?
+//
+// I actually found this challenge to be fairly easy. However, I think it was at
+// first difficult to think about how to best print out the results in a way they
+// would look nice for a grocery list.
+//
+// 3. Did an array or object make more sense to use and why?
+//
+// An object made more sense to use since an object could contain everything we
+// needed to make our solution work. We just created an object called grocery list
+// and defined properties as functions that modified the nested object food items.
